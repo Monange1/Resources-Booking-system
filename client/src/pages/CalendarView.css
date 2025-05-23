@@ -1,0 +1,129 @@
+/* CalendarView.css */
+
+.calendar-view {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-view h2 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .calendar-view p {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .create-booking-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0 auto 2rem;
+    display: block;
+    width: fit-content;
+    transition: background-color 0.2s;
+  }
+  
+  .create-booking-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .calendar-view h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .loading {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+  }
+  
+  .error {
+    font-size: 0.9rem;
+    color: #d32f2f;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .no-bookings {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .bookings-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .booking-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+    transition: box-shadow 0.2s;
+  }
+  
+  .booking-item:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resource-name {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .time-slot {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 480px) {
+    .calendar-view {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  
+    .calendar-view h2 {
+      font-size: 1.5rem;
+    }
+  
+    .create-booking-link {
+      padding: 0.65rem 1.25rem;
+      font-size: 0.9rem;
+    }
+  
+    .booking-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding: 0.75rem;
+    }
+  
+    .resource-name,
+    .time-slot {
+      font-size: 0.9rem;
+    }
+  }

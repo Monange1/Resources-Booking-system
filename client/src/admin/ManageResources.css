@@ -1,0 +1,70 @@
+.manage-resources {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resource-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .resource-form input,
+  .resource-form label {
+    font-size: 1rem;
+  }
+  
+  .resource-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .resource-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .resource-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .resource-table th,
+  .resource-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .resource-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .success {
+    color: green;
+    font-weight: bold;
+  }
+  

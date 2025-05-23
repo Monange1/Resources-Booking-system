@@ -1,0 +1,52 @@
+/* client/src/pages/SignIn.css */
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .signin-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .signin-form input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signin-form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signin-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  

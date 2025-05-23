@@ -1,0 +1,120 @@
+/* CreateBooking.css */
+
+.create-booking {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-booking h2 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group select,
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.2s;
+  }
+  
+  .form-group select:focus,
+  .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+  }
+  
+  .form-group select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1%201L6%206L11%201%22%20stroke%3D%22%23555%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 12px;
+    padding-right: 2rem;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 0.85rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  .error {
+    color: #d32f2f;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .success {
+    color: #2e7d32;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 480px) {
+    .create-booking {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  
+    .create-booking h2 {
+      font-size: 1.5rem;
+    }
+  
+    .form-group label {
+      font-size: 0.9rem;
+    }
+  
+    .form-group select,
+    .form-group input {
+      font-size: 0.9rem;
+      padding: 0.65rem;
+    }
+  
+    button {
+      font-size: 1rem;
+      padding: 0.75rem;
+    }
+  }
